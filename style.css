@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: center;
+}
+
+header{
+    max-width: 1536px;
+    margin: 0 auto;
+        padding-inline: 32px;
+    padding-block: 12px;
+}
+
+header nav{
+    width: 100%;
+   border-bottom: 1px solid #e5e5e5;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   gap: 16px;
+   font-family: "Geist", sans-serif;
+}
+
+nav .navLogoSec img{
+    width: 176px;
+    height: 48px;
+}
+nav a{
+    text-decoration: none;
+  
+      color: #737373;
+}
+.navDetailSec svg{
+    width: 16px;
+    height: 16px;
+}
+
+nav .navDetailSec{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  color: #737373;
+}
+
+.languageSec{
+    gap: 16px !important;
+}
+.languageSec button{
+    border: none;
+    background-color: transparent;
+     color: #737373;
+         border-radius: 3.40282e38px;
+  padding: 8px;
+     
+}
+
+.languageBtn{
+    border: 1px solid #e5e5e5;
+    padding: 4px 12px;
+    border-radius: 3.40282e38px;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+    ;
+    gap: 3px;
+
+}
+nav .navCartIcon{
+    padding: 8px;
+    border-radius: 3.40282e38px;
+
+}
+nav .navCartIcon svg{
+    width: 20px;
+    height: 20px;
+    color: #0a0a0a;
+}
+
+.sponsorBtn{
+    padding: 8px 12px;
+    gap: 14px;
+    background-color: #024d9a
+;
+  border-radius: 3.40282e38px;
+
+}
+.sponsorBtn svg{
+    color: #e5e5e5;
+}
+.sponsorBtn span{
+    color: #fafafa;
+    font-weight: 700;
+}
+.donateBtn{
+    padding: 8px 12px;
+    gap: 14px;
+    background-color: #61bb46
+;
+  border-radius: 3.40282e38px;
+
+}
+.donateBtn svg{
+    color: #e5e5e5;
+    fill: currentColor;
+}
+.donateBtn span{
+    color: #fafafa;
+    font-weight: 700;
+}
