@@ -576,3 +576,122 @@ height: 16px;
 width: 16px;
 
 }
+
+
+.ourImpact{
+    width: 100%;
+    padding-block: 70px;
+
+     background: linear-gradient(to bottom right, #3D9722, #46BC22, #3D9722);
+  
+}
+.ourImpact>div{
+    max-width: 96rem;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    justify-content: center;
+    margin: 0px auto;   
+}
+
+.ourImpact .topText{
+    display: flex;
+ gap: 8px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 64px;
+}
+
+.ourImpact .topText h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #fff;
+}
+.ourImpact .topText p{
+    font-size: 18px;
+    font-weight: 500;
+    color: #f0fdf4;
+}
+.ourImpact .bottomText{
+    margin-top: 64px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+.ourImpact .bottomText a{
+    padding: 6px 16px;
+    text-decoration: none;
+    width: auto;
+    font-weight: 600;
+    color: #61bb46;
+            border-radius: 3.40282e38px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #fff;
+
+}
+.ourImpact .bottomText p{
+font-size: 24px;
+color: #fff;
+font-weight: 600;
+}
+.ourImpact .bottomText a svg{
+    width: 16px;
+    height: 16px;
+    
+}
+
+
+.impactCardSec{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+    margin: 0px 20px;
+}
+.impactCardSec .impactCard{
+    width: 300px;
+    height: 250px;
+    background: transparent;
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+      border: 2px solid rgba(255, 255, 255, 0.2); 
+    border-radius: 24px;
+    justify-content: center;
+      background-color: rgba(255, 255, 255, 0.1); 
+    flex-direction: column;
+}
+
+
+.impactCard div{
+    width: 72px;
+
+    background-color: #fff3;
+
+     border-radius: 16px;
+margin-bottom: 24px;
+  padding: 16px;
+    height: 72px;
+}
+.impactCard div svg{
+    width: 40px;
+    height: 40px;
+       color: #fff;
+       
+}
+.impactCard h1{
+    color: #fff;
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom: 8px;
+
+}
+
+.impactCard p{
+    font-weight: 500;
+   color: #f0fdf4;
+   text-align: center;
+}
