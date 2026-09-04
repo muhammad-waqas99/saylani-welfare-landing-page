@@ -302,3 +302,119 @@ font-weight: 800;
  font-size: 14px;
     font-weight: 600;
 }
+
+.liveAppeals{
+    max-width: 96rem;
+    margin: 0 auto;
+    padding: 64px 16px;
+}
+
+.liveAppeals .topText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 32px;
+}
+.liveAppeals .topText div:first-child{
+    padding: 4px 16px;
+    margin-bottom: 12px;
+    font-size: 14px;
+  color: #61bb46cc;
+  background-color: #d0fae5
+;
+font-weight: 700;
+border-radius: 16px;
+
+}
+
+.liveAppeals .topText h1{
+ color: #000;
+  margin-bottom: 8px;
+ font-size: 48px;
+}
+.liveAppeals .topText h1 span{
+    color: #61bb46
+;
+}
+
+.liveAppeals .topText  p{
+    text-align: center;
+    font-size: 18px;
+    color: #6a7282;
+}
+
+
+.appealCards{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+}
+
+.appealCards .card{
+    width: 335px;
+    height: 425px;
+    margin-left: 16px;
+}
+.appealCards .card .cardImg{
+    width: 100%;
+    margin-bottom: 24px;
+    height: 280px;
+    position: relative;
+   
+}
+
+.appealCards .card .cardImg img{
+    height: 100%;
+    width: 100%;
+     border-radius: 24px;
+
+
+}
+.appealCards .card .cardImg svg{
+
+ width: 32px;
+ height: 32px;
+ color: #61bb46
+;
+
+
+}
+.appealCards .card .cardImg div{
+      background-color: #fff;
+      padding: 12px;
+      border-radius: 16px;
+      width: 56px;
+      height: 56px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    position: absolute;
+    bottom: 12px;
+    left: 12px;
+
+
+}
+
+.appealCards .card h2{
+    font-size: 18px;
+    font-weight: 700;
+     color: #000;
+     margin-bottom: 10px;
+}
+
+.appealCards .card p{
+    font-size: 14px;
+    color: #6a7282
+;
+margin-bottom: 10px;
+}
+.appealCards .card a{
+    text-decoration: none;
+    font-weight: 600;
+    color: #61bb46
+
+;
+margin-bottom: 10px;
+}
