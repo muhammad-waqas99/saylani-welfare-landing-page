@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -118,4 +119,186 @@ nav .navCartIcon svg{
 .donateBtn span{
     color: #fafafa;
     font-weight: 700;
+}
+
+.navLinkSec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ padding-top: 12px;
+}
+.navLinkSec ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    list-style-type: none;
+   
+}
+
+.navLinkSec ul li{
+    padding: 8px 16px;
+    font-weight: 500;
+    font-size: 14px;
+     color: #737373;
+}
+
+.navLinkSec ul li svg{
+width: 12px;
+height: 12px;
+     color: #737373;
+}
+
+main{
+    width: 100%;
+
+
+  border-top:1px solid  #F1F2F1;
+  background-color: #F9FDF8;
+}
+main section{
+    width: 100%;
+     max-width: 80rem;
+  margin: 0px auto;
+   
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+    gap: 32px;
+    padding: 40px 0px;
+
+}
+
+main section .mLeft .mainTopText{
+  color: #61bb46;
+  font-size: 14px;
+  
+  font-weight: 600;
+  width: 280px;
+  padding: 8px 16px ;
+  border-radius: 3.40282e38px;
+  margin-bottom: 12px;
+  background-color: #EBF7E7;
+}
+
+main section .mLeft h1{
+    font-size: 72px;
+    font-weight:800;
+    
+    color: #0a0a0a
+    
+    
+;
+margin: 22px 0px;
+line-height: 78px;
+position: relative;
+}
+
+main section .mLeft h1 svg{
+    position: absolute;
+        left: 100px;
+    top: 198px;
+  
+}
+main section .mLeft h1 span{
+color: #61BB46;
+  
+}
+
+.mainPara{
+    font-size: 18px;
+    color: #737373
+;
+
+
+margin-bottom: 20px;
+}
+.mainPara p{
+    padding-right: 64px;
+    width: 640px;
+height: 130px;
+}
+
+.mainBtn a{
+    padding: 16px 40px;
+    border-radius: 3.40282e38px;
+    font-weight: 700;
+    font-size: 18px;
+    margin: 12px 8px;
+    
+    text-decoration: none;
+}
+.mainBtn .mdonateBtn{
+    text-transform: uppercase;
+    background-color: #49A12E;
+    color: #fff;
+
+}
+.mainBtn .learnBtn{
+    border: 1px solid #E5E5E5;
+    color: #49A12E;
+
+    background-color: #fff;
+}
+.mRight{
+    width: 100%;
+    height: 480px;
+}
+.mRight .bgImg{
+    background-image: url(./images/hero-carousel-img-1.webp);
+    background-position: center;    
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 100%;
+position: relative;
+     border-radius:40px;
+}
+
+.mRight .bgImg .imgCard{
+    padding: 24px;
+    position: absolute;
+    background-color: #F3EEEC;
+    width: 520px;
+        left: 44px;
+    right: 44px;
+    bottom: 18px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.mRight .bgImg .imgCard .imgCardIcon{
+    background-color: #61bb46;
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mRight .bgImg .imgCard .imgCardIcon svg{
+    color: #fff;
+    
+    width: 32px;
+    height: 32px;
+
+}
+.mRight .bgImg .imgCard h1{
+color: #61bb46;
+font-size: 34px;
+font-weight: 800;
+}
+.mRight .bgImg .imgCard p:first-child{
+    color: #0A0A0A;
+    margin-top: 4px;
+    font-weight: 700;
+}
+.mRight .bgImg .imgCard p:last-child{
+    color:#737373 ;
+ font-size: 14px;
+    font-weight: 600;
 }
