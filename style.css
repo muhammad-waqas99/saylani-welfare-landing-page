@@ -695,3 +695,136 @@ margin-bottom: 24px;
    color: #f0fdf4;
    text-align: center;
 }
+
+
+
+.ourInitiatives{
+    width: 100%;
+   
+    padding: 80px 16px;
+
+      background-color: #F9FAFB;
+}
+.ourInitiatives>div{
+    max-width: 96rem;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourInitiatives .topText{
+    margin-bottom: 12px;
+    margin-inline: auto;
+    max-width: 48rem;
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ourInitiatives .topText div{
+      display: inline-block;
+  padding: 4px 16px;
+  background-color: #E8F5E9;
+  color: #4CAF50;
+  border-radius: 9999px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.ourInitiatives .topText h1{
+      font-size: 48px;
+  font-weight: 800;
+  color: #111827;
+  margin-bottom: 24px;
+  text-transform: capitalize;
+}
+
+.ourInitiatives .topText h1 span{
+    color: #00a63e;
+}
+.ourInitiatives .topText p{
+      color: #6B7280;
+  font-size: 18px;
+  line-height: 1.625;
+  text-align: center;
+}
+
+.ourInitiatives .links{
+    margin-bottom: 48px;
+}
+.ourInitiatives .links ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+     margin-top: 12px;
+    list-style: none;
+}
+
+.ourInitiatives .links ul li:first-child {
+      background-color: #4CAF50;
+        color: white;
+}
+.ourInitiatives .links ul li{
+    
+
+  padding: 12px 32px;
+  border-radius: 9999px;
+  font-weight: 500;
+  font-size: 14px;
+
+ 
+  background-color: white;
+  color: #99a1af;
+
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+ 
+
+
+}
+
+.ourInitiatives .imgSec{
+    display: flex;
+    width: 100%;
+    flex-wrap:wrap ;
+    align-items: center;
+    justify-content: center;
+     gap: 24px;
+}
+
+.ourInitiatives .imgSec .imgCard{
+    position: relative;
+    width: 360px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+   
+    justify-content: center;
+    border-radius: 16px;
+}
+.ourInitiatives .imgSec .imgCard img{
+ width: 100%;
+ height: 100%;
+ border-radius: 16px;
+}
+
+.ourInitiatives .imgSec .imgCard div{
+    position: absolute;
+    bottom: 20px;
+  
+    padding-inline: 32px;
+    font-weight: 700;
+
+    padding-block: 12px;
+    font-size: 12px;
+    border-radius: 999px;
+    background-color: #fff;
+    color: #00a63e;
+  
+   
+}
