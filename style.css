@@ -1075,3 +1075,143 @@ outline: none;
     width: 16px;
     height: 16px;
 }
+
+
+footer{
+ padding-top: 64px;
+   background-image: linear-gradient(to bottom right, #111827, #1E2836, #111827);
+
+  border-top: 1px solid #1f2937;
+  color: #d1d5dc;
+
+}
+footer>div{
+    max-width: 80rem;
+    margin: 0px auto;
+    padding-inline: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:center ;
+
+}
+
+footer .footerDetails{
+    margin-bottom: 64px;
+    display: flex;
+    align-items: flex-start;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+footer .footerDetails .child{
+  flex: 0 0 276px;
+}
+
+
+
+
+footer .footerDetails .socialIcons a{
+    width: 32px;
+    color: #131b2e;
+   border-radius: 6px;
+   background-color: #fff;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+footer .footerDetails .logo  img{
+ width: 192px;
+ height: 48px;
+ margin-bottom: 24px;
+}
+
+footer .footerDetails .logo p {
+    font-size: 14px;
+    color: #99a1af;
+    margin-bottom: 24px;
+}
+
+footer .footerDetails .socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+footer .footerDetails .socialIcons a svg{
+    width: 16px;
+    height: 16px;
+
+}
+
+
+.footerDetails .pages h3{
+ font-weight: 700;
+ font-size: 18px;
+ margin-bottom: 24px;
+ color: #fff;
+}
+
+.footerDetails .pages ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+}
+
+.footerDetails .pages ul li{
+ color: #d1d5dc;
+transition: all 0.3 ease-in-out;
+ font-size: 14px;    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.footerDetails .pages ul li:hover{
+    color: #00a63e;
+
+}
+
+.footerDetails .pages ul li:first-child svg{
+    width: 32px;
+    margin-bottom: 10px;
+    height: 32px;
+}
+.footerDetails .pages ul li svg{
+    width: 20px;
+    height: 20px;
+}
+
+footer .legalStrip{
+    padding-top: 24px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+footer .legalStrip img{
+    width: 120px;
+    height: 24px;
+}
+footer .legalStrip p{
+    color: #fff;
+    font-size: 12px;
+}
+footer .legalStrip a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #fff;
+}
+footer .legalStrip div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
