@@ -968,6 +968,7 @@ margin-bottom: 7px;
     border: none;
     padding: 12px 16px;
     font-size: 18px;
+    text-transform: uppercase;
     border-radius: 3.40282e38px;
     font-weight: 700;
     color: #fff;
@@ -979,4 +980,5 @@ margin-bottom: 7px;
     width: 16px;
     
     height: 16px;
+
 }
