@@ -838,7 +838,7 @@ margin-bottom: 24px;
 .updateSec>div{
     max-width: 96rem;
     margin: 0 auto;
-    padding: 64px 16px ;
+    padding: 36px 16px ;
         display:  flex;
     align-items: center;
     justify-content: center;
@@ -929,6 +929,10 @@ margin-bottom: 24px;
 
 }
 
+.ourNews .card .cardImg div{
+    background-color: #024d9a !important
+;
+}
 .updateCards .card h2{
     font-size: 18px;
     font-weight: 700;
@@ -976,6 +980,9 @@ margin-bottom: 7px;
 
 }
 
+.ourNews button, .mediaUpdates button {
+    margin-top: 28px !important;
+}
 .updateCards button svg{
     width: 16px;
     
