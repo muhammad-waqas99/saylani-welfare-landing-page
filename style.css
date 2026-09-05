@@ -828,3 +828,155 @@ margin-bottom: 24px;
   
    
 }
+
+
+.updateSec{
+    width: 100%;
+
+}
+
+.updateSec>div{
+    max-width: 96rem;
+    margin: 0 auto;
+    padding: 64px 16px ;
+        display:  flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.updateSec .topText{
+    display:  flex;
+    align-items: center;
+    margin-bottom: 48px;
+    gap: 12px;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.updateSec .topText div{
+
+  padding: 6px 24px;
+  border-radius: 9999px;
+  color: #61bb46;
+  background-color: #61bb461a;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+
+}
+
+.updateSec .topText h1{
+      font-weight: 800;
+  color: #000000;
+  font-size: 36px;
+
+  
+}
+.updateSec .topText p{
+      color: #6b7280;
+  max-width: 672px;
+  font-size: 18px;
+}
+
+
+
+
+
+.updateCards{
+    display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 8px;
+}
+
+.updateCards .card{
+    width: 335px;
+    height: 425px;
+    margin-left: 16px;
+}
+.updateCards .card .cardImg{
+    width: 100%;
+    margin-bottom: 24px;
+    height: 226px;
+    position: relative;
+    transition:  all 0.5 ease-in-out;
+   
+}
+
+.updateCards .card .cardImg img{
+    height: 100%;
+    overflow: hidden;
+    width: 100%;
+     border-radius: 24px;
+
+
+}
+
+
+.updateCards .card .cardImg div{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background-color: #00a63e;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 700;
+  padding: 6px 12px;
+  border-radius: 6px;
+
+}
+
+.updateCards .card h2{
+    font-size: 18px;
+    font-weight: 700;
+     color: #000;
+     margin-bottom: 7px;
+}
+
+.updateCards .card p{
+    font-size: 14px;
+    color: #6a7282
+;
+margin-bottom: 7px;
+}
+
+.updateCards .card .date{
+      color: #6b7280;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 4px;
+  margin-bottom: 7px;
+}
+
+.updateCards .card .date svg{
+    width: 16px;
+    height: 16px;
+}
+
+.updateSec button{
+    margin-top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    outline: none;
+    gap: 6px;
+    border: none;
+    padding: 12px 16px;
+    font-size: 18px;
+    border-radius: 3.40282e38px;
+    font-weight: 700;
+    color: #fff;
+    background-color:#61bb46;
+
+}
+
+.updateCards button svg{
+    width: 16px;
+    
+    height: 16px;
+}
